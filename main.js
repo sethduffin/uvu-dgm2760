@@ -13,7 +13,6 @@ const units = [
     name: 'Unit 03',
     path: './unit/03',
     description: 'Guessing Game',
-    disabled: true, 
   },
   {
     name: 'Unit 04',
