@@ -19,8 +19,6 @@ const possibleFortunes = [
   'wake up earlier',
 ];
 
-console.log(possibleFortunes);
-
 function generateFortuneMessage() {
   const date = randomDate();
 
