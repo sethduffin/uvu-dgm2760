@@ -23,7 +23,6 @@ const units = [
     name: 'Unit 05',
     path: './unit/05',
     description: 'Arborist',
-    disabled: true, 
   },
   {
     name: 'Unit 06',
