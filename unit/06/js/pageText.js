@@ -1,7 +1,7 @@
 export function updatePageText() {
   const elementText = {
-    title: 'Unit Name',
-    subtitle: 'Objective',
+    title: 'Nonsense Story',
+    subtitle: 'String Manipulation',
   }
 
   Object.entries(elementText).forEach(([id, text]) => {
