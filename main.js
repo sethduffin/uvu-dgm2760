@@ -28,7 +28,26 @@ const units = [
     name: 'Unit 06',
     path: './unit/06',
     description: 'Nonsense Story',
-    disabled: true, 
+  },
+  {
+    name: 'Unit 07',
+    path: './unit/07',
+    description: 'Pizza Emporium',
+  },
+  {
+    name: 'Unit 08',
+    path: './unit/08',
+    description: 'Grant\'s Tomb',
+  },
+  {
+    name: 'Unit 09',
+    path: './unit/09',
+    description: 'Menu Duplication',
+  },
+  {
+    name: 'Unit 10',
+    path: './unit/10',
+    description: 'Hotel Booking',
   },
 ]
 
