@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 html {
+  font-family: 'Inter', sans-serif;
   --primary-color: #CBA075;
   --secondary-color: #e2c09b;
   --text-color: #555555;
@@ -13,7 +16,6 @@ html {
 }
 
 body {
-  font-family: 'Inter';
   margin: 0 auto;
   padding: 1em;
   max-width: 960px;
