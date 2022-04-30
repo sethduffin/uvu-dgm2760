@@ -2,8 +2,8 @@
 
 html {
   font-family: 'Inter', sans-serif;
-  --primary-color: #4c7bae;
-  --secondary-color: #7ba9da;
+  --primary-color: #A84800;
+  --secondary-color: #C58230;
   --text-color: #555555;
   --background-color: #E7E7E7;
 }
@@ -24,6 +24,20 @@ body {
 .inner-container {
   display: flex;
   flex-direction: column;
+}
+
+.column-group {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 0 -3em;
+}
+
+.column {
+  margin: 0 3em;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 header {
@@ -55,7 +69,7 @@ h1 {
 }
 
 h3 {
-  margin: 1.5em 0 0.5em 0;
+  margin: 2em 0 0.5em 0;
   color: var(--secondary-color);
 }
 
@@ -74,4 +88,43 @@ footer {
   background-color: var(--background-color);
   color: var(--text-color);
   padding: 1em 2em;
+}
+
+label {
+  font-size: 1em;
+  padding: 0.75em 1em;
+  background-color: rgba(0, 0, 0, 0.03);
+  margin: 0.25em 0;
+  width: 200px;
+  transition: 0.3s opacity;
+  border-radius: 0.5em;
+}
+
+label:hover {
+  opacity: 60%;
+}
+
+input[type='radio'] {
+  margin-right: 0.5em;
+}
+
+button {
+  background: var(--secondary-color);
+  border: none;
+  padding: 0.75em 1em;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius:  0.5em;
+  margin: 0.25em 0em;
+  transition: 0.2s transform;
+  width: 200px;
+}
+
+button:hover {
+  transform: scale(102%);
+}
+
+button:active {
+  opacity: 80%;
 }
